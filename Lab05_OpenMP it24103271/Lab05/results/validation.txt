@@ -1,0 +1,2 @@
+PASS: identical outside count 2926731 and area 1.509284531250 across all Mandelbrot runs.
+PASS: all Fibonacci and array comparisons.

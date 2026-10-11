@@ -1,0 +1,11 @@
+thread # 2
+Inside Single # 2
+Exiting Single
+thread # 3
+thread # 1
+thread # 0
+Hi again from thread # 2
+Hi again from thread # 3
+Hi again from thread # 1
+Hi again from thread # 0
+Elapsed: 3.024278 ms

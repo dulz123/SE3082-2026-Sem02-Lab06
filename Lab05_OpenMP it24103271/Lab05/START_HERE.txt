@@ -1,0 +1,36 @@
+LAB 05 — NEXT STEPS
+
+1. Extract Lab05_OpenMP.zip. Your working folder is Lab05.
+2. Use a Linux terminal on your allowed EC2/other Linux environment.
+   On Ubuntu, if tools are missing:
+     sudo apt update
+     sudo apt install build-essential python3
+3. Change into the extracted Lab05 folder, then run:
+     bash run_all.sh
+4. Check results/validation.txt for PASS. Read README.md for the answers.
+   Results from your run replace the included assistant-hosted results.
+5. Exercises 1 and 4 request qsub. On the university PBS cluster:
+     qsub cluster.pbs
+   The script may need the cluster's resource settings. A regular local
+   Linux or EC2 machine does not automatically have a batch scheduler.
+6. Upload this folder's source code, scripts, explanations and YOUR output
+   files to your own assignment repository, using the lecturer's required
+   layout. Do not upload bin/ compiled programs. Screenshots are optional
+   unless your lecturer separately asks for them.
+7. The final Molecular Dynamics exercise is not complete. Obtain the
+   original MolDyn source folder to finish it. See MOLDYN_GUIDANCE.md.
+
+FILES
+src/ex1_barrier.c       Exercise 1
+src/ex2_single.c        Exercise 2
+src/ex3_master.c        Exercise 3 (missing brace fixed)
+src/ex4_outer.c         Exercise 4 original loop mapping
+src/ex4_collapse.c      Exercise 4 collapse(2)
+src/ex5_fibonacci.c     Serial and task-parallel Fibonacci
+src/ex6_arrays.c        Serial and strip-mined OpenMP/SIMD multiplication
+src/ex7_mandelbrot.c    Your supplied Mandelbrot algorithm, completed
+README.md              Written explanations and commands
+RESULTS.md             Actual assistant-hosted Linux measurement summary
+
+This package is labelled Lab 05 according to your clarification. It does
+not attempt to change or complete the separate Lab 06 repository.

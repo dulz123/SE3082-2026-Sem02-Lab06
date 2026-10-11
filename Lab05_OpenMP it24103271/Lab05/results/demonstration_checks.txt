@@ -1,0 +1,1 @@
+PASS: barrier ordering, single execution/barrier, master thread ID, 50 unique loop pairs in each mapping, Fibonacci base/cutoff cases.

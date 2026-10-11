@@ -1,0 +1,54 @@
+repetition=1 schedule=default mode=serial threads=1 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=10846.794585
+repetition=1 schedule=default mode=manual threads=1 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=11255.081359
+repetition=1 schedule=default mode=manual threads=2 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=5044.556809
+repetition=1 schedule=default mode=manual threads=3 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=3087.949447
+repetition=1 schedule=default mode=manual threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2472.707235
+repetition=1 schedule=static mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=4194.868951
+repetition=1 schedule=static,1 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2296.422878
+repetition=1 schedule=static,8 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2353.287423
+repetition=1 schedule=dynamic,1 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2298.333936
+repetition=1 schedule=guided,1 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2482.492239
+repetition=1 n=35 threads=1 serial=9227465 parallel=9227465 serial_ms=18.874645 parallel_ms=17.118765 PASS
+repetition=1 N=1000000 strip=256 threads=1 serial_ms=9.267893 parallel_ms=9.597277 checksum=177625000.000 mismatches=0 PASS
+repetition=1 n=35 threads=2 serial=9227465 parallel=9227465 serial_ms=16.732573 parallel_ms=16.441188 PASS
+repetition=1 N=1000000 strip=256 threads=2 serial_ms=9.260965 parallel_ms=7.458616 checksum=177625000.000 mismatches=0 PASS
+repetition=1 n=35 threads=3 serial=9227465 parallel=9227465 serial_ms=17.342162 parallel_ms=28.043443 PASS
+repetition=1 N=1000000 strip=256 threads=3 serial_ms=8.975684 parallel_ms=43.371999 checksum=177625000.000 mismatches=0 PASS
+repetition=1 n=35 threads=4 serial=9227465 parallel=9227465 serial_ms=16.336490 parallel_ms=32.765298 PASS
+repetition=1 N=1000000 strip=256 threads=4 serial_ms=3.420931 parallel_ms=33.788054 checksum=177625000.000 mismatches=0 PASS
+repetition=2 schedule=default mode=serial threads=1 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=9086.034505
+repetition=2 schedule=default mode=manual threads=1 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=10040.054454
+repetition=2 schedule=default mode=manual threads=2 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=4837.074872
+repetition=2 schedule=default mode=manual threads=3 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2679.173223
+repetition=2 schedule=default mode=manual threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2716.294125
+repetition=2 schedule=static mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=4511.523103
+repetition=2 schedule=static,1 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2008.885437
+repetition=2 schedule=static,8 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2798.383342
+repetition=2 schedule=dynamic,1 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2404.002993
+repetition=2 schedule=guided,1 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2466.837921
+repetition=2 n=35 threads=1 serial=9227465 parallel=9227465 serial_ms=17.454383 parallel_ms=15.548106 PASS
+repetition=2 N=1000000 strip=256 threads=1 serial_ms=3.459036 parallel_ms=3.860424 checksum=177625000.000 mismatches=0 PASS
+repetition=2 n=35 threads=2 serial=9227465 parallel=9227465 serial_ms=16.645428 parallel_ms=16.426377 PASS
+repetition=2 N=1000000 strip=256 threads=2 serial_ms=3.077289 parallel_ms=4.676516 checksum=177625000.000 mismatches=0 PASS
+repetition=2 n=35 threads=3 serial=9227465 parallel=9227465 serial_ms=16.396043 parallel_ms=16.999462 PASS
+repetition=2 N=1000000 strip=256 threads=3 serial_ms=6.316873 parallel_ms=30.878301 checksum=177625000.000 mismatches=0 PASS
+repetition=2 n=35 threads=4 serial=9227465 parallel=9227465 serial_ms=19.573524 parallel_ms=13.973152 PASS
+repetition=2 N=1000000 strip=256 threads=4 serial_ms=7.298676 parallel_ms=15.182152 checksum=177625000.000 mismatches=0 PASS
+repetition=3 schedule=default mode=serial threads=1 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=9320.572275
+repetition=3 schedule=default mode=manual threads=1 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=11160.285652
+repetition=3 schedule=default mode=manual threads=2 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=5201.098838
+repetition=3 schedule=default mode=manual threads=3 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=3211.793237
+repetition=3 schedule=default mode=manual threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2428.972802
+repetition=3 schedule=static mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=4286.830120
+repetition=3 schedule=static,1 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=3126.309524
+repetition=3 schedule=static,8 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2979.736313
+repetition=3 schedule=dynamic,1 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2282.013442
+repetition=3 schedule=guided,1 mode=runtime threads=4 grid=2000 iterations=2000 outside=2926731 area=1.509284531250 time_ms=2396.954495
+repetition=3 n=35 threads=1 serial=9227465 parallel=9227465 serial_ms=18.069957 parallel_ms=15.269265 PASS
+repetition=3 N=1000000 strip=256 threads=1 serial_ms=17.727775 parallel_ms=19.012633 checksum=177625000.000 mismatches=0 PASS
+repetition=3 n=35 threads=2 serial=9227465 parallel=9227465 serial_ms=16.235412 parallel_ms=17.157385 PASS
+repetition=3 N=1000000 strip=256 threads=2 serial_ms=7.204972 parallel_ms=7.660234 checksum=177625000.000 mismatches=0 PASS
+repetition=3 n=35 threads=3 serial=9227465 parallel=9227465 serial_ms=16.957688 parallel_ms=12.212269 PASS
+repetition=3 N=1000000 strip=256 threads=3 serial_ms=3.142928 parallel_ms=16.828023 checksum=177625000.000 mismatches=0 PASS
+repetition=3 n=35 threads=4 serial=9227465 parallel=9227465 serial_ms=16.521827 parallel_ms=15.647159 PASS
+repetition=3 N=1000000 strip=256 threads=4 serial_ms=7.131566 parallel_ms=27.363290 checksum=177625000.000 mismatches=0 PASS
